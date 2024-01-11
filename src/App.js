@@ -1,10 +1,15 @@
 import './App.css';
+import Content from './Content';
+import Footer from './Footer';
+import Header from './Header';
 
 function App() {
+  
   return (
-    <div className='title'>
-
-      <h1>First React Project.</h1>
+    <div className='App'>
+      <Header/>
+      <Content/>
+      <Footer/>
     </div>
   );
 }
